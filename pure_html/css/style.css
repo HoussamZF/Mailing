@@ -1,0 +1,51 @@
+#emails {
+  display: none;
+}
+#forma {
+    display: none;
+}
+
+#container {
+  width: 75%;
+  display: inline-block;
+}
+.tag-container {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 6px;
+  overflow-x: scroll;
+  overflow: hidden;
+}
+.tag-container .tag {
+  position:relative;
+  height: 50%;
+  margin: 5px;
+  padding: 5px 6px;
+  border: 1px solid #C44B71;
+  border-radius: 3px;
+  background: #C44B71;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 1px 1px #C44B71;
+  cursor: default;
+}
+.tag i {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 8px;
+}
+.tag-container input {
+    background-color: transparent;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    color: #333;
+    flex: 1;
+}
+
+/**/
